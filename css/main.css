@@ -31,6 +31,8 @@ h2 {
   font-family: "Sigmar One", cursive;
   font-size: 1.875rem;
   color: #b20953;
+  margin: .3em 0em .3em 0em;
+  padding: 0;
 }
 
 footer {
@@ -77,4 +79,5 @@ main {
 
 img {
   width: 100%;
+  display: inline;
 }
