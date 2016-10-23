@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  font-size: 1.125rem;
   font-family: Georgia;
   line-height: 1.5;
   color: #2f2d13;
@@ -17,6 +16,8 @@ body {
 
 header {
   background-color: #ffe500;
+  margin: 0;
+  padding: 0 0 .2em;
 }
 
 h1 {
@@ -25,14 +26,17 @@ h1 {
   color: #b20953;
   text-align: center;
   margin: 0;
+  padding: .05em;
+  padding-top: 0;
 }
 
 h2 {
   font-family: "Sigmar One", cursive;
   font-size: 1.875rem;
   color: #b20953;
-  margin: .3em 0em .3em 0em;
+  margin: .3em 0;
   padding: 0;
+  margin-top: .2em;
 }
 
 footer {
@@ -66,6 +70,8 @@ a.highlight {
 
 nav {
   text-align: center;
+  padding: .3em;
+  font-size: 1.125rem;
 }
 
 ul {
@@ -74,10 +80,12 @@ ul {
 }
 
 main {
-  padding: .4em;
+  padding: .7em;
+  margin-top: .8em;
 }
 
 img {
   width: 100%;
-  display: inline;
+  display: block;
+  padding-top: .7em;
 }
